@@ -1,3 +1,8 @@
+body {
+  background-image: url("./image/moutain.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 form {
   margin: 0 100px;
   border: 2px solid rebeccapurple;
