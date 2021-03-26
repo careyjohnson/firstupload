@@ -1,0 +1,32 @@
+form {
+  margin: 0 100px;
+  border: 2px solid rebeccapurple;
+  padding: 30px;
+  width: 300px;
+}
+label {
+  color: red;
+  width: 100vw;
+}
+#lbl-mbm {
+  color: black;
+}
+.lbl-email {
+  color: black;
+}
+/* label {
+  color: blue;
+} */
+label .lbl-email {
+}
+/* css specifility calculator */
+textarea {
+  /* margin: 20px 2px 10px 20px; */
+  padding-top: 30px;
+  /* padding-left: 20px; */
+  /* height: calc(100px - 50px - 2px - 2px); */
+  width: 100%;
+}
+input {
+  width: 100%;
+}

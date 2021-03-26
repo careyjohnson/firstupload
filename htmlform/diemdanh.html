@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Diem Danh</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <form action="https://604f548bc20143001744cc5c.mockapi.io/submit/diemdanh" method="POST">
+        <label>Ho va ten</label>
+        <br>
+        <input required name="Ten" type="text" maxlength="40" minlength="5">
+        <label style="color: black;">MSSV</label>
+        <input required name="MSSV" type="number">
+        <label id="lbl-mbm">MaBiMat</label>
+        <input required type="number" name="MaBiMat" max="1000" min="99">
+        <label class="lbl-email">Email</label>
+        <input type="Email" name="email">
+        <label>Phone</label>
+        <input type="tel" name="Phone">
+        <label>HTML</label>
+        <textarea name="HTML" rows="10" cols="20">
+        </textarea>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

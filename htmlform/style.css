@@ -1,0 +1,49 @@
+form {
+  background-color: rgb(54, 57, 59);
+  width: 400px;
+  border: 1px solid;
+  margin: 30px 100px;
+  padding: 30px;
+  border-radius: 5%;
+}
+label {
+  color: white;
+  width: 100%;
+}
+input[type="submit"] {
+  background-color: rgb(164, 204, 238);
+  color: white;
+}
+input[type="reset"]:hover {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: rgb(19, 64, 122);
+  cursor: pointer;
+}
+input[type="radio"] {
+  width: initial;
+}
+input {
+  border-radius: 6px;
+  width: 100%;
+}
+input:hover {
+  border: rgb(85, 128, 209);
+}
+textarea {
+  width: 100%;
+  border-radius: 6px;
+}
+body {
+  /* background-image: url("./image/moutain"); */
+  background-image: url("./image/moutain.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.required::after {
+  content: " *";
+  color: red;
+}

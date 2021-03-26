@@ -1,0 +1,15 @@
+.bg-blue {
+  background-color: rgb(110, 182, 248);
+}
+.red-text {
+  color: red;
+}
+#div1 {
+  background-color: rgb(120, 231, 213);
+}
+/* div {
+  background-color: rgb(110, 182, 248);
+} */
+input {
+  font-size: 30px;
+}

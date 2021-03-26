@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Input</title>
+</head>
+<body>
+    <form action="https://604f548bc20143001744cc5c.mockapi.io/submit/form" method="POST">
+        <label>Ho va ten sinh vien</label>
+        <br>
+        <input name="hoten" type="text" maxlength="40" minlength="5"><br>
+        <label>Tuoi sinh vien</label><br>
+        <!-- <input type="date"> -->
+        <input name="tuoi" type="number" min="18" max="50"><br>
+        <label>Gioi tinh</label><br>
+        <label>Nam</label>
+        <input type="radio" value="0" name="gioitinh">
+        <label>Nu</label>
+        <input type="radio" value="1" name="gioitinh"><br>
+        <label>Lop</label><br>
+        <select>
+            <option value="1">Java</option>
+            <option value="2">PHP</option>
+            <option value="3">Python</option>
+        </select><br>
+        <input type="reset" value="Reset"><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
